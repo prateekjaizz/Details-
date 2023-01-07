@@ -1,0 +1,109 @@
+.App {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    gap: 150px;
+}
+
+.Enter {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-content: center;
+    gap: 5px;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(250, 235, 215, 0.363);
+    border: none;
+    border-radius: 5px;
+}
+
+.Classroom {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: space-between;
+    width: 400px;
+    height: 550px;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    overflow: auto;
+    background-color: rgba(240, 255, 255, 0.591);
+    
+    
+}
+
+body {
+    background-image: url('./Attendance-Management-System-A-Complete-Guide.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+}
+
+.Student {
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    padding: 0 10px;
+    background-color: rgba(8, 163, 122, 0.644);
+    
+}
+
+input:-internal-autofill-selected {
+   background: none;
+}
+
+.alert {
+    color: red;
+}
+
+hr {
+    color: aliceblue;
+}
+
+.Time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Button {
+    height: 40px;
+    border: none;
+    width: 100px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 12px;
+}
+
+.CheckIn {
+    height: 40px;
+    border: none;
+    width: 100%;
+    background-color: blueviolet;
+    color: black;
+    font-size: 12px;
+}
+
+input {
+    background: none;
+    border: 1px solid brown;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    
+}
+
+.Present {
+    background-image: url('./empty-classroom.jpg');
+    align-content: center;
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    padding: 4px 2px;
+    
+}
